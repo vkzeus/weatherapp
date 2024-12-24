@@ -1,0 +1,41 @@
+/* App.css */
+.app-container {
+  display: flex;
+  height: 100vh;
+  font-family: sans-serif;
+}
+
+.sidebar {
+  width: 300px;
+  padding: 20px;
+  border-right: 1px solid #ccc;
+  overflow-y: auto;
+  background-color: #f8f8f8;
+}
+
+/* ... (rest of the CSS from the previous response) */
+
+.input-area {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
+  padding-bottom: 10px; /* Add bottom padding */
+}
+
+.input-area md-outlined-text-field {
+  flex-grow: 1;
+  min-height: 48px; /* Set a minimum height */
+}
+
+/* Style Material Web Components */
+md-filled-button,
+md-fab {
+  --md-sys-color-primary: #2196f3;
+  height: 48px; /*Match button height to input*/
+}
+
+md-outlined-text-field {
+  width: 100%;
+}
